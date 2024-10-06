@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: coral;    
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 5px;  /*melsvo langelio dydis*/
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    flex-direction: row;
+}

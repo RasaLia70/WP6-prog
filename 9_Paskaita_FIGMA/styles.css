@@ -1,0 +1,80 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;/**/
+  color: black;
+}
+
+@media (max-width: 600;) {
+  body {
+      padding: 0 10px;
+  }
+}
+.header{
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul li {
+  display: inline; 
+  margin: 0 40px;
+  color: black;
+} 
+
+.header a {
+  text-decoration: none;
+} 
+.header nav a:hover {
+  color: orange;
+  background-color: 2px solid orange; 
+  border-radius: 10px;
+  transition: 300ms;
+} 
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 600;) {
+ .hero {
+  grid-template-columns: 1fr;
+ }
+}
+
+.contact-us-button: {
+  color:orange:
+  border:2px solid orange;
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.contact-us-button:hover {
+  background-color: orange;
+  color:white;
+  transition: 300ms;
+} 
+.flex-container-cards { 
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap 16px;
+} 
+.card {
+ text-decoration: none;
+background-color: white;
+border border-radius: 10px;
+}
+
+@media (mix-width: 600px) and (max-widht:768px) {
+  .cards {
+      grid-template columns: 1fr 1fr;
+  }
+}
+i:hover {
+  transform: rotateY(360deg);/*kad suktųsi ikona*/
+  transition: transform 1s;
+  
+}
+.logo{
+  width: 100px;
+}
